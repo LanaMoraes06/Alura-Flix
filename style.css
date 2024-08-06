@@ -7,14 +7,14 @@ body {
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(119, 42, 228);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgb(119, 42, 228);
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(0, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -57,4 +57,135 @@ p {
 
 .categoria h2 {
     color: rgb(42, 122, 228);
+}
+.imgays{
+    width: 880px; /* Ajuste conforme necessário */
+    height: 500px; /* Ajuste conforme necessário */
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover; /* Para cobrir o tamanho do elemento */
+    position: relative; /
+    
+    
+}
+main{
+    backdrop-filter:brightness(40%);
+}
+.imagem-com-sombra::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%; /* Começa da metade esquerda da imagem */
+    background: linear-gradient(to left, rgba(0,0,0,0.5), transparent); /* Gradiente de preto transparente para transparente */
+    z-index: 1; /* Garante que a sombra esteja acima da imagem */
+    
+}
+.brid{
+    text-align: center;
+    font-size: 40px;
+   
+
+}
+p{
+    margin-top: 20px;
+}
+label{
+padding-left: 60px;
+
+}body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(119, 42, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(119, 42, 228);
+}
+
+.chamada {
+    background: rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
+.imgays{
+    width: 880px; /* Ajuste conforme necessário */
+    height: 500px; /* Ajuste conforme necessário */
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover; /* Para cobrir o tamanho do elemento */
+    position: relative; /
+    
+    
+}
+main{
+    backdrop-filter:brightness(40%);
+}
+.imagem-com-sombra::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%; /* Começa da metade esquerda da imagem */
+    background: linear-gradient(to left, rgba(0,0,0,0.5), transparent); /* Gradiente de preto transparente para transparente */
+    z-index: 1; /* Garante que a sombra esteja acima da imagem */
+    
+}
+.brid{
+    text-align: center;
+    font-size: 40px;
+   
+
+}
+p{
+    margin-top: 20px;
+}
+label{
+padding-left: 60px;
+
 }
