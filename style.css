@@ -59,8 +59,8 @@ p {
     color: rgb(42, 122, 228);
 }
 .imgays{
-    width: 880px; /* Ajuste conforme necessário */
-    height: 500px; /* Ajuste conforme necessário */
+    width: 800px; /* Ajuste conforme necessário */
+    height: 450px; /* Ajuste conforme necessário */
     background-image: url('caminho/para/sua/imagem.jpg');
     background-size: cover; /* Para cobrir o tamanho do elemento */
     position: relative; /
