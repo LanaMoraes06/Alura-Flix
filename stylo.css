@@ -1,0 +1,62 @@
+body {
+    background-image: url(Rectangle15.png);
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+   
+    flex-direction: column;
+}
+
+button {
+    background: rgb(43, 70, 106);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+    font-size: 12px;
+    size: 30px;
+
+    width: 70%;
+    
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+   width: 500px;
+   border: 1px solid black;
+   height: 500px;
+   color: white;
+   border-radius: 20px;
+   box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-color: black;
+
+}
+
+img {
+    max-width: 90%;
+    display: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 240px;
+}
+nav{
+    color: white;
+    size: 20px;
+}
